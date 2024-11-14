@@ -1,0 +1,115 @@
+.center {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: end;
+    padding: 2% 3%;
+    height: 30%;
+    /* width: 500px; */
+}
+
+.detail {
+    background-image: url(../Background10.jpeg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    /* background-size: 210vmin; */
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+
+    /* height: fit-content; */
+    /* object-fit: contain; */
+
+}
+
+.appdat {
+    font-size: xx-large;
+    font-weight: bolder;
+    /* color: rgb(231, 13, 118); */
+}
+
+.quote {
+    font-size: x-large;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.pagedat {
+    /* font-weight:bold; */
+    /* font-size:xx-large; */
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    gap: 90px;
+}
+
+.btn2 {
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+
+    /* padding: 2% 3%; */
+    width: 120px;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+
+    background-color: #000000;
+
+}
+
+.logo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+.hdr1{
+    color:#FFFFFF;
+}
+.nl{
+    color: #FFFFFF;
+}
+.header1{
+    background-color:transparent;
+    position: absolute;
+    color: #FFFFFF;
+
+}
+.body{
+    /* background-color: #000000; */
+}
+.hdr1>nav>div>div>div>p{
+    color: #FFFFFF;
+    /* background-color: #000000; */
+    /* b */
+    
+}
+.hdr1>nav>div>div>button>*{
+    color: #FFFFFF;
+    /* background-color: #000000; */
+    /* b */
+    
+}
+.hdr1>nav>div>div>button>*{
+    color: #FFFFFF;
+    /* background-color: #000000; */
+    /* b */
+    
+}
+/* button > *>button{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 15px 35px;
+    border-radius: 10px;
+} */
+Header{
+    /* color: #FFFFFF; */
+    background-color: #000000;
+    background-color: #000000;
+}

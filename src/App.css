@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  /* color: #61dafb; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mainimg{
+  width: 1400px;
+  height: 600px;
+  margin : 50px 4%;
+  /* background-image: url(./pixelcut-export.jpeg); */
+  background-image: url(./photo_2024-11-10_16-27-31.jpeg);
+  /* animation: minimg ease-in-out 0.5 normal infinite ;
+  */
+  animation-name: minimg;
+  animation-iteration-count: infinite;
+  /* animation-delay: 1s; */
+  animation-duration: 15s;
+  /* animation-timing-function:ease; */
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+.main{
+  /* background-color: #61dafb; */
+}
+.mainbtnact{
+  width: 100px;
+  height: 10px;
+  /* animation-composition:inherit; */
+  /* background-color: #cb3b1b; */
+  border-radius: 10px;
+}
+@keyframes minimg{
+  0%{
+    background-image: url(./photo_2024-11-10_16-27-48.jpeg);
+    /* animation-composition:inherit; */
+    /* background-image: url(./pixelcut-export\(1\).jpeg); */
+    /* transition:all  0.15s ease; */
+    background-size: cover;
+    
+  }
+  40%{
+    background-image: url(./photo_2024-11-10_16-28-10.jpeg);
+    /* background-image: url(./back13.jpeg); */
+    /* transition:all  0.15s ease; */
+    background-size: cover;
+    
+  }
+  60%{
+    /* background-image: url(./back14.jpeg); */
+    background-image: url(./photo_2024-11-10_16-28-14.jpeg);
+    /* transition:all  0.15s ease; */
+    background-size: cover;
+    
+  }
+  80%{
+    background-image: url(./photo_2024-11-10_16-28-17.jpeg);
+    background-size: cover;
+    
+  }
+}
+.mnalbtn{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  animation: mnallbtn 2s forwards 1s infinite  ;
+  
+  
+}
+@keyframes mnallbtn {
+  0%{
+    .mainbtnact{
+      background-color: black;
+    }
+    background-color: #282c34;
+  }
+  100%{
+    background-color: aquamarine;
+  }
+  
+}
+.mainbtn{
+  width: 30px;
+  height: 10px;
+}
+.mnimgall{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+
+}
+.mnimg{
+  width: 90%;
+  height: 80%;
+  margin: 25px;
+}
+.mnimg1{
+  width: 1400px;
+  height: 500px;
+}
+.header1{
+  /* background-color: #282c34; */
+}
+.nl{
+  /* color: #282c34; */
+}
