@@ -14,19 +14,18 @@ export function FrontPage() {
         <div className={styles.hdr1}>
           <Header />
         </div>
-
         <div className={styles.center}>
           {/* <p className="appdat">Event Aura</p> */}
           <div className={styles.pagedat}>
             <button className={styles.btn2}> About Us</button>
             <button className={styles.btn2}>Get Started</button>
           </div>
-        </div>
-        <div className={styles.logo2}>
-          <img src={logo2} />
-          <p className={styles.quote}>
-            First Impression Is The Last Impression
-          </p>
+          <div className={styles.logo2}>
+            <img src={logo2} />
+            <p className={styles.quote}>
+              First Impression Is The Last Impression
+            </p>
+          </div>
         </div>
       </div>
 

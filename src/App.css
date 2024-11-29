@@ -121,14 +121,20 @@
 }
 .mnimgall{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(auto,1fr);
+  gap: 0;
   /* grid-template-rows: 1fr 1fr 1fr; */
 
 }
 .mnimg{
   width: 90%;
   height: 80%;
-  margin: 25px;
+  /* background-color: #282c34; */
+  /* background-image: url(./back1.jpg); */
+  /* border: solid 2px black; */
+
+  /* margin: 25px; */
 }
 .mnimg1{
   width: 1400px;
@@ -139,4 +145,105 @@
 }
 .nl{
   /* color: #282c34; */
+}
+.p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  /* background-color: #BC723B; */
+  color: #111110;
+  margin-top: 5%;
+  width:27%;
+  height: 5%;
+  font-size: xx-large;
+  /* background-color:#111110; */
+  /* top: 10%; */
+  /* width: 90%; */
+  /* height: 20px; */
+  /* margin-top: 15%; */
+  /* padding-bottom: 2%; */
+  /* text-align: center; */
+  /* top: 85%; */
+  /* visibility: hidden; */
+  /* opacity: 0.4; */
+  /*bottom: 0;
+  left: 0;
+  right: 0; */
+  /* bottom: 10px; */
+  /* top: 135%; */
+  /* width: 19%; */
+}
+.hoverimg:hover .bottom{
+  /* visibility: visible; */
+  /* background-color: #282c34; */
+  /* background-image: url(./back1.jpg); */
+  width: 20%;
+  /* visibility: visible; */
+  /* opacity: 1; */
+  background-color: #282c34;
+  visibility: visible;
+}
+.hoverimg:hover .mnimg{
+  /* visibility: hidden; */
+  /* opacity: 0.1;/ */
+  
+}
+.hoverimg:hover imgmn{
+  border: solid 2px black;
+
+
+}
+.bottom{
+  /* opacity: 0.3; */
+  /* visibility: hidden; */
+}
+.text{
+  position: absolute;
+  background-color: #282c34;
+  width: 80%;
+  top: 10%;
+  text-align: center;
+}
+.bottom button{
+  background-color: #282c34;
+  position: absolute;
+  top: 10px;
+}
+.imgmn{
+    width: 90%;
+      height: 100%;
+}
+mnimg:hover{
+  /* visibility: hidden; */
+}
+.mnimg:hover , .bottom:hover + .imgmn .mnimg{
+  visibility: hidden;
+}
+.imgmn:hover ,.bottom:hover+.imgmn{
+  width: 80%;
+    height: 80%;
+  border: #111110 solid 2px;
+
+}
+.bottom:hover>.imgmn{
+  background-color: aquamarine;
+}
+.imgmn:hover .mnimg{
+  visibility: hidden;
+}
+.bottom{
+  visibility: hidden;
+}
+.bottom:has(+ div img){
+  background-color: #111110;
+
+}
+.alevnt{
+  font-size: 50px;
+  /* background-color: #111110; */
+  text-align: center;
+}
+.bottom{
+  background-color: #111110;
 }

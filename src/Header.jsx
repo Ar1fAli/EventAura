@@ -4,19 +4,19 @@ import logo from "./photo_2024-11-10_01-51-13.jpg";
 import logo1 from "./photo_2024-11-10_01-51-18.jpg";
 import logo2 from "./photo_2024-11-10_01-51-22.jpg";
 import logo3 from "./photo_2024-11-10_01-51-26.jpg";
-import logo4 from "./sc.png";
+import logo4 from "./sc1.png";
 import { useRef } from "react";
 
 export function Header() {
   const logorf = useRef();
-  const eventshnd = () => {
-    logorf.current.style.backgroundColor = "#FFFFFF";
-    logorf.current.style.position = "initial";
-    logorf.current.style.color = "#000000";
+  // const eventshnd = () => {
+  //   logorf.current.style.backgroundColor = "#FFFFFF";
+  //   logorf.current.style.position = "initial";
+  //   logorf.current.style.color = "#000000";
 
-    // logorf.current.style.backgroundColor = "black";
-    console.log(logorf);
-  };
+  //   // logorf.current.style.backgroundColor = "black";
+  //   console.log(logorf);
+  // };
   return (
     <>
       <nav>
@@ -25,7 +25,7 @@ export function Header() {
             <img
               src={logo4}
               alt="testing image"
-              width={100}
+              // width={100}
               className={styles.img}
             />
             <div className={styles.in2}>
@@ -45,7 +45,7 @@ export function Header() {
               </Link>
             </button>
             <button className={styles.in}>
-              <Link to="/events" className={styles.nl} onClick={eventshnd}>
+              <Link to="/events" className={styles.nl}>
                 Event
               </Link>
             </button>

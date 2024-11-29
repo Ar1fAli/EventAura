@@ -1,6 +1,7 @@
 import { Header } from "./Header";
 // import styles from "./styles/Login2.module.css";
 import styles from "./styles/Login2.module.css";
+import { Footer } from "./Footer";
 
 // import "./Login2.css";
 import imag from "./Background.jpg";
@@ -32,6 +33,7 @@ export function Login() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
